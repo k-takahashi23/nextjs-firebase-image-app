@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Post } from '../modules/entities';
-import { PostsRepository } from '../modules/repositories';
+import { Post } from '../backend/entities';
+import { PostsRepository } from '../backend/repositories';
 
 export const usePosts = (): {
   isLoading: boolean

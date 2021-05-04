@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Post } from '../../modules/entities';
+import { Post } from '../../backend/entities';
 import { storage } from '../../firebase/client';
 
 interface Props {
