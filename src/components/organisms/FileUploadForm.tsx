@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { storage } from '../../firebase/client';
 import { useCurrentUser } from '../../hooks/useCurrentUser';
-import { PostsFactory } from '../../backend/factories';
-import { PostsRepository } from '../../backend/repositories';
+import { PostsFactory } from '../../backend/domain/factories';
+import { PostsRepository } from '../../backend/infrastructure/repositories';
 
 const FileUploadForm: React.FC = () => {
   const { currentUser } = useCurrentUser();

@@ -1,5 +1,5 @@
-import { Post } from "../entities/post";
-import { db } from "../../firebase/client";
+import { Post } from "../../domain/entities/post";
+import { db } from "../../../firebase/client";
 
 export interface IPostsRepository {
   findAll(): Promise<Post[]>;
