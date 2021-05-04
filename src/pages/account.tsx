@@ -1,4 +1,4 @@
-import LoginedTemplate from '../components/templates/LoginedTemplate'
+import LoginedTemplate from '../components/common/LoginedTemplate'
 import { useRequireLogin } from '../hooks/useRequireLogin';
 
 const AccountPage = () => {

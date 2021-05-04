@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Footer from '../organisms/Footer'
+import Footer from './Footer'
 
 type Props = {
   title?: string

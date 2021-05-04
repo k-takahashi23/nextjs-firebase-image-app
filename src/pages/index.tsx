@@ -1,9 +1,9 @@
-import LoginedTemplate from '../components/templates/LoginedTemplate';
-import FileUploadForm from '../components/organisms/FileUploadForm';
+import LoginedTemplate from '../components/common/LoginedTemplate';
+import FileUploadForm from '../components/fileUpload/FileUploadForm';
 import { useCurrentUser } from '../hooks/useCurrentUser';
 import { useRequireLogin } from '../hooks/useRequireLogin'
 import React from 'react';
-import PostItemList from '../components/organisms/PostItemList';
+import PostItemList from '../components/post/PostItemList';
 
 const HomePage = () => {
   useRequireLogin();

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from '../organisms/Header'
-import Footer from '../organisms/Footer'
+import Header from './Header'
+import Footer from './Footer'
 
 type Props = {
   title?: string
